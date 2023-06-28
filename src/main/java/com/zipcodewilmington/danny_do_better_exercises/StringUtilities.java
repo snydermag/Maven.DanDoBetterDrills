@@ -129,7 +129,7 @@ public class StringUtilities {
         int i;
 
         for (i = (stringToReverse.length() - 1); i > -1; i--) {
-            tempString = tempString + stringToReverse.charAt(i);
+            tempString += stringToReverse.charAt(i);
         }
 
         return tempString;
