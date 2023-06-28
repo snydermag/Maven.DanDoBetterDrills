@@ -52,6 +52,7 @@ public class TestStringUtilities {
         assertEquals(expected, actual);
     }
 
+
     @Test
     public void substringBeginTest(){
         // : Given
